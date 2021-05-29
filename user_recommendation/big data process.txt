@@ -1,0 +1,36 @@
+
+Process :
+
+- On trouve dans quel chunk se trouve le client
+- On clean les données 
+- On met univers maille libelle dans une colonne nommé bag of words
+- On trouve les produits du client
+- On met les produits dans un dictionnaire
+- On récupère le meilleur produit par une fonction qui trie le produit le plus acheté
+- On fait appelle à la fonction contentbased et avec count vectorizer qui convertie une collection
+de texte en une matrice de token dans notre cas le bag of words
+et avec la methode de consinus similarity cela nous permet de donner la similarité entre
+deux vecteur en déterminant le cosinus de leur angle
+- Enfin avec une fonction de trie on récupère les 10 produits recommandé
+
+
+
+collaborative :
+On a essayé d'implémenté la méthode mais manque de temps
+
+
+Clustering : 
+
+afficher les termes par cluster - > Kmeans
+Utilisé countVectorizer pour Convertir le texte en une matrice de nombres de jetons
+puis on a utilisé la méthode de l'Analyse en composantes principales combiné à kmeans 
+cela permet de réduire le nombre de variables et de rendre l'information moins redondante.
+et enfin matplotlib pour l'affichage des graphes
+
+
+NLP :
+Préparation des données (parsed colonne ajouté)
+fr_core_news_md model pré-entrainé de Spacy
+Convertion du dataframe en ScatterTexte
+affichage sur un html
+
