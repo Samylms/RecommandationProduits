@@ -1,5 +1,8 @@
 # Recommender System
 
+Big Data project which aims to offer products to a customer based on his previous purchases. We used the "content base" method in order to find products similar to the target user.
+
+
 Python application which take any client id in input then give back:
 
         - at least one gift for the client and an explanation on why this gift was recommended
